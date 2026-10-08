@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play Lagos Life</title>
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon-192.png">
+  <style>
+    html, body { margin: 0; height: 100%; font-family: system-ui, sans-serif; }
+    body { display: flex; flex-direction: column; background: #1B1C1F; }
+    header {
+      background: #F5B800;
+      color: #1B1C1F;
+      padding: 10px 16px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+    header a {
+      background: #1B1C1F;
+      color: #F5B800;
+      padding: 8px 14px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    header a:focus-visible { outline: 3px solid #1B1C1F; outline-offset: 3px; }
+    iframe { flex: 1; width: 100%; border: 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <span>Game blank or not loading? The site may not allow embedding.</span>
+    <a href="https://lagoslife.org/" target="_blank" rel="noopener noreferrer">Open in new tab</a>
+  </header>
+  <iframe
+    src="https://lagoslife.org/"
+    title="Lagos Life game"
+    allow="fullscreen; autoplay"
+    referrerpolicy="no-referrer"></iframe>
+</body>
+</html>
